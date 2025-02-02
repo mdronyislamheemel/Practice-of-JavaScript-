@@ -41,8 +41,19 @@ const d = 20;
 // 2. non-primitive data types
 // object, array, function
 
-const num = 10;
+let num = 10;
 const str = "I love JS";
 const isTrue = true;
 const rony = null;
-let x;
+let p;
+
+// abar object declare korar jonno const or let diye declare kora jai. niche amra dekhi
+const student ={
+    id : 15,
+    FullName: "Rony Islam",
+    session: 2018
+}
+
+// akhane amra 2 vabe object er vitorer jekono variable print korte pari
+console.log("student id:",student.id);
+console.log("student id:", student["id"]);
