@@ -57,3 +57,15 @@ const student ={
 // akhane amra 2 vabe object er vitorer jekono variable print korte pari
 console.log("student id:",student.id);
 console.log("student id:", student["id"]);
+
+// *create a object name "profile" that shown in a instegram profile
+
+const profile ={
+    userName: "@Ironykapoor",
+    isFollow: true,
+    noOfPosts: 129,
+    followers: 10000000,
+    following: 5
+}
+
+console.log(profile);
