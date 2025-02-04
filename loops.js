@@ -19,9 +19,9 @@ for(let i in student1){
 
 // practice2: guess a number and if it is equal to the number then congratulate him
 
-// let gameNum = 25;
-// let userNum = prompt("Guess the number:");
-// while(gameNum !== userNum){
-//     userNum = prompt("you guess a wrong number. Try again:")
-// }
-// console.log("congratulations you entered the right number");
+let gameNum = 25;
+let userNum = prompt("Guess the number:");
+while(gameNum != userNum){
+    userNum = prompt("you guess a wrong number. Try again:")
+}
+console.log("congratulations you entered the right number");
