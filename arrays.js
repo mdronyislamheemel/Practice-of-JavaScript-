@@ -32,3 +32,25 @@ console.log(`after offer price ${items}`);
 items.push(350);
 items.push("Rony");
 
+// array.pop methods: sob somoi end theke delete hobe
+items.pop("Rony");
+
+// toString method array k string e convert kore dai
+console.log(items.toString());
+//  array concatanation
+let marvelHeroes= ["Ironman","Spiderman", "Thor"]
+let dcHeroes = ["Superman", "Batman"];
+let Heroes = marvelHeroes.concat(dcHeroes);
+console.log(Heroes);
+
+// unshift method: array r begin e add kore
+marvelHeroes.unshift("goru");
+// shift method: array er befin theke delete kore
+marvelHeroes.shift("goru");
+
+//slice(startIndex, endIndex)-> endIndex not included and doesn't change original array
+console.log(marvelHeroes);
+console.log(marvelHeroes.slice(1,3));
+// splice(): change original array(add, remove, replace)
+// splice(startIndex, delCount, NewElement);
+marvelHeroes.splice(2,2, "Dr. Strange")
